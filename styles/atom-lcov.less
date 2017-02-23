@@ -19,14 +19,14 @@
   }
 }
 
-html /deep/ .lcov-covered {
+html /deep/ .gutter .line-number.lcov-covered {
   .lcov-gutter(@background-color-success);
 }
 
-html /deep/ .lcov-partially-covered {
+html /deep/ .gutter .line-number.lcov-partially-covered {
   .lcov-gutter(@background-color-warning);
 }
 
-html /deep/ .lcov-missed {
+html /deep/ .gutter .line-number.lcov-missed {
   .lcov-gutter(@background-color-error);
 }
